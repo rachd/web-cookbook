@@ -7,8 +7,6 @@
 	<title>Rachel's Cookbook</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="javascript/jquery-1.11.3.js" type="text/javascript"></script>
-	<script src="javascript/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -46,11 +44,12 @@
 				<ul>
 					<li><a href="#biscotti">Almond Biscotti</a></li>
 					<li><a href="#lemonBars">Lemon Bars</a></li>
+					<li><a href="#pieCrust">Pie Crust</a></li>
 					<li><a href="#sugarCookies">Sugar Cookies</a></li>
 				</ul>
 			</div>
 			<div class="col-md-9 col-xs-12 col-sm-12 recipes">
-				<div id="biscotti">
+				<div id="biscotti" class="recipe">
 					<div class="text-center recipe-head">
 						<h2>Almond Biscotti</h2>
 						<p>makes 20 biscotti</p>
@@ -82,7 +81,7 @@
 						<li>Bake slices 20 minutes, turn over, then bake 20 more minutes</li>
 					</ol>
 				</div>
-				<div id="lemonBars">
+				<div id="lemonBars" class="recipe">
 					<div class="text-center recipe-head">
 						<h1>Lemon Bars</h1>
 					</div>
@@ -116,7 +115,26 @@
 						<li>Cool completely in pan</li>
 					</ol>
 				</div>
-				<div id="sugarCookies">
+				<div id="pieCrust" class="recipe">
+					<div class="recipe-head text-center">
+						<h1>Pie Crust</h1>
+					</div>
+					<h4>Ingredients</h4>
+					<ul>
+						<li>1 3/4 cups all-purpose flour</li>
+						<li>1 tsp salt</li>
+						<li>2/3 cup shortening</li>
+						<li>1/3 cup ice water</li>
+					</ul>
+					<h4>Directions</h4>
+					<ol>
+						<li>Sift flour and salt into mixing bowl</li>
+						<li>Cut in shortening with pastry cutter until the bits are the size of peas</li>
+						<li>Sprinkle ice water in by tablespoonfuls, stirring in with a fork, until the dough can be shaped into a ball</li>
+						<li>Wrap the dough in wax paper and chill for at least 1 hour</li>
+					</ol>
+				</div>
+				<div id="sugarCookies" class="recipe">
 					<div class="recipe-head text-center">
 						<h1>Sugar Cookies</h1>
 					</div>
@@ -145,5 +163,8 @@
 			</div>
 		</div>
 	</div>
+	<script src="javascript/jquery-1.11.3.js" type="text/javascript"></script>
+	<script src="javascript/bootstrap.min.js" type="text/javascript"></script>
+	<script src="javascript/main.js" type="text/javascript"></script>
 </body>
 </html>

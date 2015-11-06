@@ -7,8 +7,6 @@
 	<title>Rachel's Cookbook</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="javascript/jquery-1.11.3.js" type="text/javascript"></script>
-	<script src="javascript/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -46,12 +44,13 @@
 				<ul>
 					<li><a href="#asianGrilledChicken">Asian Grilled Chicken</a></li>
 					<li><a href="#chickenPotPie">Chicken Pot Pie</a></li>
+					<li><a href="#crabCakes">Crab Cakes</a></la>
 					<li><a href="#jambalaya">Jambalaya</a></li>
 					<li><a href="#searedTunaSteak">Seared Tuna Steak with Avocado and Cilantro-Lime Dressing</a></li>
 				</ul>
 			</div>
 			<div class="col-md-9 col-sm-12 col-xs-12 recipes">
-				<div id="asianGrilledChicken">
+				<div id="asianGrilledChicken" class="recipe">
 					<div class="text-center recipe-head">
 						<h2>Asian Grilled Chicken</h2>
 					</div>
@@ -75,7 +74,7 @@
 					</ol>
 				</div>
 				<div id="chickenPotPie">
-					<div class="text-center recipe-head">
+					<div class="text-center recipe-head" class="recipe">
 						<h2>Chicken Pot Pie</h2>
 						<p>Makes 2 pies</p>
 					</div>
@@ -107,7 +106,44 @@
 						<li>Cool 10 minutes before eating</li>
 					</ol>
 				</div>
-				<div id="jambalaya">
+				<div id="crabCakes" class="recipe">
+					<div class="recipe-head text-center">
+						<h2>Crab Cakes</h2>
+						<p>from <a href="http://www.finecooking.com/recipes/classic-maryland-crab-cakes.aspx">finecooking.com</a></p>
+						<p>Makes 8 crab cakes</p>
+					</div>
+					<h4>Ingredients</h4>
+					<ul>
+						<li>1 pound jumbo lump crabmeat</li>
+						<li>1 large egg</li>
+						<li>1/4 cup mayonnnaise</li>
+						<li>1 1/2 teaspoons Dijon mustard</li>
+						<li>1 1/2 teaspoons Old Bay seasoning</li>
+						<li>1 teaspoon fresh lemon juice</li>
+						<li>1/2 teaspoon Worcestershire sauce</li>
+						<li>1/4 teaspoon kosher salt</li>
+						<li>1 1/4 cups fresh breadcrumbs</li>
+						<li>1 tablespoon chopped fresh parsley</li>
+						<li>2 tablespoons unsalted butter</li>
+						<li>1 tablespoon olice oil</li>
+						<li>lemon wedges for serving</li>
+					</ul>
+					<h4>Directions</h4>
+					<ol>
+						<li>Drain the crabmeat and set aside in a medium mixing bowl</li>
+						<li>In a small bowl, whisk together egg, mayonnaise, mustard, Old Bat, lemon juice, Worcestershire sauce, and salt</li>
+						<li>Scrape mixture over crab and mix gently until well combined, gently breaking up lumps</li>
+						<li>Sprinkle breadcrumbs and parsley over the mixture, mixing in thoroughly but gently</li>
+						<li>Cover with plastic wrap and refrigerate for 1 to 3 hours</li>
+						<li>Shape crab mixture into 8 cakes about 1-inch thick</li>
+						<li>In a 12-inch nonstick skillet, heat the butter and olive oil over medium heat</li>
+						<li>When butter is frothy, add cakes</li>
+						<li>Cook until dark golden brown on underside, about 4 minutes</li>
+						<li>Flip cakes, reduce heat to medium low, and continue cooking until other side is browned, 4-5 minutes</li>
+						<li>Serve with lemon wedges</li>
+					</ol>
+				</div>
+				<div id="jambalaya" class="recipe">
 					<div class="recipe-head text-center">
 						<h2>Jambalaya</h2>
 						<p>from <a href="http://www.gimmesomeoven.com/jambalaya-recipe/">gimmesomeoven.com</a></p>
@@ -147,7 +183,7 @@
 						<li>Remove bay leaf and season to taste with salt, pepper, and cajun spice</li>
 					</ol>
 				</div>
-				<div id="searedTunaSteak">
+				<div id="searedTunaSteak" class="recipe">
 					<div class="recipe-head text-center">
 						<h2>Seared Tuna Steak with Avocado and Cilantro-Lime Dressing</h2>
 						<p>from <a href="http://myhusbandhatesveggies.com/2008/04/seared-tuna-steak-w-avocado-cilantro-lime-dressing-and-the-perils-of-grocery-shopping-in-nyc/">myhusbandhatesveggies.com</a></p>
@@ -185,5 +221,8 @@
 			</div>
 		</div>
 	</div>
+	<script src="javascript/jquery-1.11.3.js" type="text/javascript"></script>
+	<script src="javascript/bootstrap.min.js" type="text/javascript"></script>
+	<script src="javascript/main.js" type="text/javascript"></script>
 </body>
 </html>
